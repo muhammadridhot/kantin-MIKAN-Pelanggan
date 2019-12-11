@@ -1,7 +1,7 @@
 # kantin
 PENGEMBANGAN APLIKASI PEMESANAN MENU KANTIN MIKROSKIL BERBASIS WEB DAN MOBILE
 
-![Screenshot_2019-09-25-19-13-11-28_8515baea2551b91f38fa04af4a74a7ce](https://user-images.githubusercontent.com/58737538/70584913-2e8ab080-1bf5-11ea-8535-729a924f00fe.png)
+![Screenshot_2019-09-25-19-13-11-28_8515baea2551b91f38fa04af4a74a7ce](https://user-images.githubusercontent.com/58737538/70584913-2e8ab080-1bf5-11ea-8535-729a924f00fe.png = 50x50)
 ![Screenshot_2019-09-25-19-13-25-39_8515baea2551b91f38fa04af4a74a7ce](https://user-images.githubusercontent.com/58737538/70584914-2f234700-1bf5-11ea-8fe9-22eec8c82ef3.png)
 ![Screenshot_2019-09-25-19-13-34-24_8515baea2551b91f38fa04af4a74a7ce](https://user-images.githubusercontent.com/58737538/70584915-2fbbdd80-1bf5-11ea-85df-0553081df29f.png)
 ![Screenshot_2019-09-25-19-13-40-78_8515baea2551b91f38fa04af4a74a7ce](https://user-images.githubusercontent.com/58737538/70584916-2fbbdd80-1bf5-11ea-9f6e-74b312c6b23f.png)
