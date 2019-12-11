@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".topUp_atm"
+    android:background="@color/background_color">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardviewNominal"
+        app:cardCornerRadius="5dp"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:id="@+id/isiNominal">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtIsiNominal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/padauk"
+                    android:hint="Isi Nominal"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_primary"
+                    android:textSize="24sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardviewNominal"
+                android:layout_margin="20dp">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/bank_maybank"
+                    android:id="@+id/rdbMaybank"
+                    android:onClick="clickJenisAtm"
+                    android:buttonTint="@color/secondary_text_material_dark"/>
+            </RadioGroup>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLanjutkanTopUpATM"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="Lanjutkan"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/primary_text_material_dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardviewNominal"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cara Transfer"/>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnCaraTFMayBank"
+                android:text="ATM MAYBAK"
+                android:background="@drawable/button_transparant"
+                android:textAlignment="viewStart"
+                android:drawableEnd="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/layoutCaraTF"
+            android:visibility="gone"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Silahkan masukkan kartu ke ATM"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Masukkan kata sandi Anda"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Pilih: Pembayaran / Top Up Pulsa"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Pilih: Virtual Account"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Masukkan nomor VA MayBank Anda"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Klik Ya untuk konfirmasi pembayaran"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

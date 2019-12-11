@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pengaturan">
+
+    <LinearLayout
+        android:id="@+id/layoutimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_update"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp" />
+
+
+        <Button
+            android:id="@+id/update_img"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:text="Choose Img"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutusername"
+        android:layout_width="308dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/layoutimg"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtusernameupdate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawablePadding="10dp"
+            android:hint="Username"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textColor="@color/text_color_primary" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnUpdate_profile"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutusername"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_shape"
+        android:text="Update"
+        android:textColor="@color/primary_text_material_dark" />
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.RiwayatFragment"
+    android:background="@color/background_color">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:fontFamily="@font/padauk"
+          android:text="Riwayat Transaksi"
+          android:textSize="20sp" />
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/lstriwayat"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+   </LinearLayout>
+
+</RelativeLayout>

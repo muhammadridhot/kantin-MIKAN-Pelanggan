@@ -1,0 +1,55 @@
+<resources>
+
+
+    <style name="AlertDialogDelete" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:colorAccent">#2196F3</item>
+        <item name="android:textColor">#D61414</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_material_dark</item>
+        <item name="android:navigationBarColor">@android:color/background_dark</item>
+        <item name="android:colorForeground">@color/text_color_secondary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/primary_text_material_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark</item>
+    </style>
+
+    <style name="ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_material_dark</item>
+        <item name="android:navigationBarColor">@android:color/background_dark</item>
+        <item name="android:colorForeground">@color/text_color_secondary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/primary_text_material_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark</item>
+        <item name="android:textViewStyle">@font/padauk</item>
+    </style>
+    <style name="ActionBarCart" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/primary_text_material_dark</item>
+        <item name="android:navigationBarColor">@android:color/background_dark</item>
+        <item name="android:colorForeground">@color/text_color_secondary</item>
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark</item>
+        <item name="android:textViewStyle">@font/padauk</item>
+    </style>
+</resources>

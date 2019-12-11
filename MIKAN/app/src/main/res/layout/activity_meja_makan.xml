@@ -1,0 +1,2486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".meja_makan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrlView"
+        android:layout_above="@+id/LayoutPembayaran">
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/LayoutKantinA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:layout_margin="10sp"
+                            android:background="@drawable/button_shape"
+                            android:text="MINUMAN"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="end"
+                            android:gravity="end">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:layout_margin="10sp"
+                                android:background="@drawable/button_shape"
+                                android:text="Makanan"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textColor="@color/text_color_secondary" />
+                        </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <Button
+                                android:id="@+id/btnMJA01"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ01" />
+                            <Button
+                                android:id="@+id/btnMJA02"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ02" />
+                            <Button
+                                android:id="@+id/btnMJA03"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ03" />
+                            <Button
+                                android:id="@+id/btnMJA04"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ04" />
+                            <Button
+                                android:id="@+id/btnMJA05"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ05" />
+                            <Button
+                                android:id="@+id/btnMJA06"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ06" />
+                            <Button
+                                android:id="@+id/btnMJA07"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ07" />
+                            <Button
+                                android:id="@+id/btnMJA08"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ08" />
+                            <Button
+                                android:id="@+id/btnMJA09"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ09" />
+                            <Button
+                                android:id="@+id/btnMJA10"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ10" />
+                            <Button
+                                android:id="@+id/btnMJA11"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ11" />
+                            <Button
+                                android:id="@+id/btnMJA12"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ12" />
+                            <Button
+                                android:id="@+id/btnMJA13"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ13" />
+                            <Button
+                                android:id="@+id/btnMJA14"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ14" />
+                            <Button
+                                android:id="@+id/btnMJA15"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ15" />
+                            <Button
+                                android:id="@+id/btnMJA16"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ16" />
+                            <Button
+                                android:id="@+id/btnMJA17"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ17" />
+                            <Button
+                                android:id="@+id/btnMJA18"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ18" />
+                            <Button
+                                android:id="@+id/btnMJA19"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ19" />
+                            <Button
+                                android:id="@+id/btnMJA20"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ20" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <Button
+                                android:id="@+id/btnMJA21"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ21" />
+                            <Button
+                                android:id="@+id/btnMJA22"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ22" />
+                            <Button
+                                android:id="@+id/btnMJA23"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ23" />
+                            <Button
+                                android:id="@+id/btnMJA24"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ24" />
+                            <Button
+                                android:id="@+id/btnMJA25"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ25" />
+                            <Button
+                                android:id="@+id/btnMJA26"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ26" />
+                            <Button
+                                android:id="@+id/btnMJA27"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ27" />
+                            <Button
+                                android:id="@+id/btnMJA28"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ28" />
+                            <Button
+                                android:id="@+id/btnMJA29"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ29" />
+                            <Button
+                                android:id="@+id/btnMJA30"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ30" />
+                            <Button
+                                android:id="@+id/btnMJA31"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ31" />
+                            <Button
+                                android:id="@+id/btnMJA32"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ32" />
+                            <Button
+                                android:id="@+id/btnMJA33"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ33" />
+                            <Button
+                                android:id="@+id/btnMJA34"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ34" />
+                            <Button
+                                android:id="@+id/btnMJA35"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ35" />
+                            <Button
+                                android:id="@+id/btnMJA36"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ36" />
+                            <Button
+                                android:id="@+id/btnMJA37"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ37" />
+                            <Button
+                                android:id="@+id/btnMJA38"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ38" />
+                            <Button
+                                android:id="@+id/btnMJA39"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ39" />
+                            <Button
+                                android:id="@+id/btnMJA40"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ40" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <Button
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ41"
+                                android:visibility="invisible"/>
+                            <Button
+                                android:visibility="invisible"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ41" />
+                            <Button
+                                android:id="@+id/btnMJA41"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ41" />
+                            <Button
+                                android:id="@+id/btnMJA42"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ42" />
+                            <Button
+                                android:id="@+id/btnMJA43"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ43" />
+                            <Button
+                                android:id="@+id/btnMJA44"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ44" />
+                            <Button
+                                android:id="@+id/btnMJA45"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ45" />
+                            <Button
+                                android:id="@+id/btnMJA46"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ46" />
+                            <Button
+                                android:id="@+id/btnMJA47"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ47" />
+                            <Button
+                                android:id="@+id/btnMJA48"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ48" />
+                            <Button
+                                android:id="@+id/btnMJA49"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ49" />
+                            <Button
+                                android:id="@+id/btnMJA50"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ50" />
+                            <Button
+                                android:id="@+id/btnMJA51"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ51" />
+                            <Button
+                                android:id="@+id/btnMJA52"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ52" />
+                            <Button
+                                android:id="@+id/btnMJA53"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ53" />
+                            <Button
+                                android:id="@+id/btnMJA54"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ54" />
+                            <Button
+                                android:id="@+id/btnMJA55"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ55" />
+                            <Button
+                                android:id="@+id/btnMJA56"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ56" />
+                            <Button
+                                android:id="@+id/btnMJA57"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ57" />
+                            <Button
+                                android:id="@+id/btnMJA58"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ58" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <Button
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ41"
+                                android:visibility="invisible"/>
+                            <Button
+                                android:visibility="invisible"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ41" />
+                            <Button
+                                android:id="@+id/btnMJA59"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ59" />
+                            <Button
+                                android:id="@+id/btnMJA60"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ60" />
+                            <Button
+                                android:id="@+id/btnMJA61"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ61" />
+                            <Button
+                                android:id="@+id/btnMJA62"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ62" />
+                            <Button
+                                android:id="@+id/btnMJA63"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ63" />
+                            <Button
+                                android:id="@+id/btnMJA64"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ64" />
+                            <Button
+                                android:id="@+id/btnMJA65"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ65" />
+                            <Button
+                                android:id="@+id/btnMJA66"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ66" />
+                            <Button
+                                android:id="@+id/btnMJA67"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ67" />
+                            <Button
+                                android:id="@+id/btnMJA68"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ68" />
+                            <Button
+                                android:id="@+id/btnMJA69"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ69" />
+                            <Button
+                                android:id="@+id/btnMJA70"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ70" />
+                            <Button
+                                android:id="@+id/btnMJA71"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ71" />
+                            <Button
+                                android:id="@+id/btnMJA72"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ72" />
+                            <Button
+                                android:id="@+id/btnMJA73"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ73" />
+                            <Button
+                                android:id="@+id/btnMJA74"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ74" />
+                            <Button
+                                android:id="@+id/btnMJA75"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ75" />
+                            <Button
+                                android:id="@+id/btnMJA76"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ76" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <Button
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ41"
+                                android:visibility="invisible"/>
+                            <Button
+                                android:visibility="invisible"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ41" />
+                            <Button
+                                android:id="@+id/btnMJA77"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ77" />
+                            <Button
+                                android:id="@+id/btnMJA78"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ78" />
+                            <Button
+                                android:id="@+id/btnMJA79"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ79" />
+                            <Button
+                                android:id="@+id/btnMJA80"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ80" />
+                            <Button
+                                android:id="@+id/btnMJA81"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ81" />
+                            <Button
+                                android:id="@+id/btnMJA82"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ82" />
+                            <Button
+                                android:id="@+id/btnMJA83"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ83" />
+                            <Button
+                                android:id="@+id/btnMJA84"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ84" />
+                            <Button
+                                android:id="@+id/btnMJA85"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ85" />
+                            <Button
+                                android:id="@+id/btnMJA86"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ86" />
+                            <Button
+                                android:id="@+id/btnMJA87"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ87" />
+                            <Button
+                                android:id="@+id/btnMJA88"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ88" />
+                            <Button
+                                android:id="@+id/btnMJA89"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ89" />
+                            <Button
+                                android:id="@+id/btnMJA90"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ90" />
+                            <Button
+                                android:id="@+id/btnMJA91"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ91" />
+                            <Button
+                                android:id="@+id/btnMJA92"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ92" />
+                            <Button
+                                android:id="@+id/btnMJA93"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ93" />
+                            <Button
+                                android:id="@+id/btnMJA94"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ94" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <Button
+                                android:visibility="invisible"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ95" />
+                            <Button
+                                android:id="@+id/btnMJA95"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ95" />
+                            <Button
+                                android:id="@+id/btnMJA96"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ96" />
+                            <Button
+                                android:id="@+id/btnMJA97"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ97" />
+                            <Button
+                                android:id="@+id/btnMJA98"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ98" />
+                            <Button
+                                android:id="@+id/btnMJA99"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ99" />
+                            <Button
+                                android:id="@+id/btnMJA100"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ100" />
+                            <Button
+                                android:id="@+id/btnMJA101"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="M101" />
+                            <Button
+                                android:id="@+id/btnMJA102"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ102" />
+                            <Button
+                                android:id="@+id/btnMJA103"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ103" />
+                            <Button
+                                android:id="@+id/btnMJA104"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ104" />
+                            <Button
+                                android:id="@+id/btnMJA105"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ105" />
+                            <Button
+                                android:id="@+id/btnMJA106"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ106" />
+                            <Button
+                                android:id="@+id/btnMJA107"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ107" />
+                            <Button
+                                android:id="@+id/btnMJA108"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ108" />
+                            <Button
+                                android:id="@+id/btnMJA109"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ109" />
+                            <Button
+                                android:id="@+id/btnMJA110"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ110" />
+                            <Button
+                                android:id="@+id/btnMJA111"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ111" />
+                            <Button
+                                android:id="@+id/btnMJA112"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ112" />
+                            <Button
+                                android:id="@+id/btnMJA113"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ113" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <Button
+                                android:visibility="invisible"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ95" />
+                            <Button
+                                android:id="@+id/btnMJA115"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ115" />
+                            <Button
+                                android:id="@+id/btnMJA116"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ116" />
+                            <Button
+                                android:id="@+id/btnMJA117"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ117" />
+                            <Button
+                                android:id="@+id/btnMJA118"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ118" />
+                            <Button
+                                android:id="@+id/btnMJA119"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ119" />
+                            <Button
+                                android:id="@+id/btnMJA120"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ120" />
+                            <Button
+                                android:id="@+id/btnMJA121"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ121" />
+                            <Button
+                                android:id="@+id/btnMJA122"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ122" />
+                            <Button
+                                android:id="@+id/btnMJA123"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ123" />
+                            <Button
+                                android:id="@+id/btnMJA124"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ124" />
+                            <Button
+                                android:id="@+id/btnMJA125"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ125" />
+                            <Button
+                                android:id="@+id/btnMJA126"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ126" />
+                            <Button
+                                android:id="@+id/btnMJA127"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ127" />
+                            <Button
+                                android:id="@+id/btnMJA128"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ128" />
+                            <Button
+                                android:id="@+id/btnMJA129"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ129" />
+                            <Button
+                                android:id="@+id/btnMJA130"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ130" />
+                            <Button
+                                android:id="@+id/btnMJA131"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ131" />
+                            <Button
+                                android:id="@+id/btnMJA132"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ132" />
+                            <Button
+                                android:id="@+id/btnMJA133"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp"
+                                android:layout_margin="6px"
+                                android:background="@drawable/button_meja_makan_tersedia"
+                                android:text="MJ133" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/LayoutKantinB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:weightSum="10">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 24"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 23"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 22"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 21"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 20"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 19"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 18"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 17"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 16"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 15"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 14"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 13"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_margin="10sp"
+                                android:background="@drawable/button_shape"
+                                android:text="MINUMAN"
+                                android:textAlignment="center"
+                                android:textColor="@color/text_color_secondary" />
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:id="@+id/btnMJ131"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ131" />
+                                    <Button
+                                        android:id="@+id/btnMJ130"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ130" />
+                                    <Button
+                                        android:id="@+id/btnMJ129"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ129" />
+                                    <Button
+                                        android:id="@+id/btnMJ128"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ128" />
+                                    <Button
+                                        android:id="@+id/btnMJ127"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ127" />
+                                    <Button
+                                        android:id="@+id/btnMJ126"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ126" />
+                                    <Button
+                                        android:id="@+id/btnMJ125"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ125" />
+                                    <Button
+                                        android:id="@+id/btnMJ124"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ124" />
+                                    <Button
+                                        android:id="@+id/btnMJ123"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ123" />
+                                    <Button
+                                        android:id="@+id/btnMJ122"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ122" />
+                                    <Button
+                                        android:id="@+id/btnMJ121"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ121" />
+                                    <Button
+                                        android:id="@+id/btnMJ120"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ120" />
+                                    <Button
+                                        android:id="@+id/btnMJ119"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ119" />
+                                    <Button
+                                        android:id="@+id/btnMJ118"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ118" />
+                                    <Button
+                                        android:id="@+id/btnMJ117"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ117" />
+                                    <Button
+                                        android:id="@+id/btnMJ116"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ116" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ115"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ115" />
+                                    <Button
+                                        android:id="@+id/btnMJ114"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ114" />
+                                    <Button
+                                        android:id="@+id/btnMJ113"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ113" />
+                                    <Button
+                                        android:id="@+id/btnMJ112"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ112" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:id="@+id/btnMJ111"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ111" />
+                                    <Button
+                                        android:id="@+id/btnMJ110"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ110" />
+                                    <Button
+                                        android:id="@+id/btnMJ109"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ109" />
+                                    <Button
+                                        android:id="@+id/btnMJ108"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ108" />
+                                    <Button
+                                        android:id="@+id/btnMJ107"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ107" />
+                                    <Button
+                                        android:id="@+id/btnMJ106"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ106" />
+                                    <Button
+                                        android:id="@+id/btnMJ105"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ105" />
+                                    <Button
+                                        android:id="@+id/btnMJ104"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ104" />
+                                    <Button
+                                        android:id="@+id/btnMJ103"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ103" />
+                                    <Button
+                                        android:id="@+id/btnMJ102"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ102" />
+                                    <Button
+                                        android:id="@+id/btnMJ101"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="M101" />
+                                    <Button
+                                        android:id="@+id/btnMJ100"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ100" />
+                                    <Button
+                                        android:id="@+id/btnMJ99"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ99" />
+                                    <Button
+                                        android:id="@+id/btnMJ98"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ98" />
+                                    <Button
+                                        android:id="@+id/btnMJ97"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ97" />
+                                    <Button
+                                        android:id="@+id/btnMJ96"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ96" />
+                                    <Button
+                                        android:id="@+id/btnMJ95"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ95" />
+                                    <Button
+                                        android:id="@+id/btnMJ94"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ94" />
+                                    <Button
+                                        android:id="@+id/btnMJ93"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ93" />
+                                    <Button
+                                        android:id="@+id/btnMJ92"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ92" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+                                    <Button
+                                        android:id="@+id/btnMJ91"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ91" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ90"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ90" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ89"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ89" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ88"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ88" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ87"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ87" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ86"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ86" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ85"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ85" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ84"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ84" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ83"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ83" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ82"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ82" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ81"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ81" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ80"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ80" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ79"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ79" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ78"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ78" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ77"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ77" />
+                                    <Button
+                                        android:id="@+id/btnMJ76"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ76" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ75"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ75" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/btnMJ74"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ74" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ73"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ73" />
+                                    <Button
+                                        android:id="@+id/btnMJ72"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ72" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ71"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ71" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ70"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ70" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ69"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ69" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ68"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ68" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ67"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ67" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ66"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ66" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ65"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ65" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ64"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ64" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ63"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ63" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ62"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ62" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ61"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ61" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ60"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ60" />
+                                    <Button
+                                        android:id="@+id/btnMJ59"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ59" />
+                                    <Button
+                                        android:id="@+id/btnMJ58"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ58" />
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/btnMJ57"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ57" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ56"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ56" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ55"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ55" />
+                                    <Button
+                                        android:id="@+id/btnMJ54"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ54" />
+                                    <Button
+                                        android:id="@+id/btnMJ53"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ53" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ52"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ52" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ51"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ51" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ50"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ50" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ49"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ49" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ48"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ48" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ47"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ47" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ46"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ46" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ45"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ45" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ44"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ44" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ43"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ43" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ42"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ42" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ41"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ41" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+
+                                    <Button
+                                        android:id="@+id/btnMJ40"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ40" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ36"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ36" />
+                                    <Button
+                                        android:id="@+id/btnMJ39"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ39" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ38"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ38" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ37"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ37" />
+
+
+
+                                    <Button
+                                        android:id="@+id/btnMJ35"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ35" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ34"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ34" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ33"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ33" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ32"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ32" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ31"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ31" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ30"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ30" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ29"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ29" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ28"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ28" />
+                                    <Button
+                                        android:id="@+id/btnMJ27"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ27" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ26"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ26" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ25"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ25" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ24"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ24" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ23"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ23" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ22"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ22" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ21"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ21" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/btnMJ20"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ20" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ19"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ19" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ18"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ18" />
+                                    <Button
+                                        android:id="@+id/btnMJ17"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ17" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ16"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ16" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ15"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ15" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ14"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ14" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ13"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ13" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ12"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ12" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ11"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ11" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ10"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ10" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ09"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ09" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ08"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ08" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ07"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ07" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ06"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ06" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ05"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ05" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ04"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ04" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ03"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ03" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ02"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ02" />
+
+                                    <Button
+                                        android:id="@+id/btnMJ01"
+                                        android:layout_width="45dp"
+                                        android:layout_height="20dp"
+                                        android:layout_margin="6px"
+                                        android:background="@drawable/button_meja_makan_tersedia"
+                                        android:text="MJ01" />
+
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 12"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 11"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 10"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 09"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 08"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 07"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 06"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 05"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 04"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 03"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 02"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="45dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="5px"
+                            android:background="@drawable/button_shape"
+                            android:fontFamily="@font/padauk"
+                            android:gravity="center"
+                            android:text="STAN 01"
+                            android:textAlignment="center"
+                            android:textColor="@color/text_color_secondary"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/LayoutPembayaran">
+
+            <Button
+                android:id="@+id/btnPembayaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_shape"
+                android:text="Pembayaran"
+                android:textColor="@color/primary_text_material_dark" />
+        </LinearLayout>
+
+</RelativeLayout>

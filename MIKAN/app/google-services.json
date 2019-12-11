@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "483575173995",
+    "firebase_url": "https://kantin-online-mikroskil-9ee2c.firebaseio.com",
+    "project_id": "kantin-online-mikroskil-9ee2c",
+    "storage_bucket": "kantin-online-mikroskil-9ee2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483575173995:android:25141a07006c5cfd",
+        "android_client_info": {
+          "package_name": "com.example.ridho.mikan_stan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483575173995-dg93pus3ft8b7vtl1rjqff36m1fop0g2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ridho.mikan_stan",
+            "certificate_hash": "bdae58357977e254cf664ec8469e13d1af31ae36"
+          }
+        },
+        {
+          "client_id": "483575173995-ec9tac4l2c2phh32jlj29q98qn26k6lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrjY-Jd8OF3-1l8ejq_s59j63T9QcuZq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483575173995-ec9tac4l2c2phh32jlj29q98qn26k6lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483575173995:android:ba27c602644ff89b",
+        "android_client_info": {
+          "package_name": "com.example.ridho.mikan_users"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483575173995-ick3rpv1osib3aqej8s4ogprpep44emj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ridho.mikan_users",
+            "certificate_hash": "bdae58357977e254cf664ec8469e13d1af31ae36"
+          }
+        },
+        {
+          "client_id": "483575173995-ec9tac4l2c2phh32jlj29q98qn26k6lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrjY-Jd8OF3-1l8ejq_s59j63T9QcuZq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483575173995-ec9tac4l2c2phh32jlj29q98qn26k6lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483575173995:android:037d955f3b6f0d20",
+        "android_client_info": {
+          "package_name": "com.example.ridho.tugasakhir_mikan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483575173995-ec9tac4l2c2phh32jlj29q98qn26k6lr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrjY-Jd8OF3-1l8ejq_s59j63T9QcuZq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483575173995-ec9tac4l2c2phh32jlj29q98qn26k6lr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
